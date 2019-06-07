@@ -1,0 +1,138 @@
+.main__content {
+	width: 920px;
+	float: center;
+}
+.main_reviews {
+	margin-left: 90px;
+	width: 890px;
+}
+.pagination {
+  margin-top: 35px;
+
+}
+
+.pagination__item {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+.pagination__item:after {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__item:last-child:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__link {
+  display: inline-block;
+  vertical-align: middle;
+  color:  #f89513;
+  font-weight: 300;
+  line-height: 1.42;
+  text-decoration: underline;
+}
+
+.pagination__link--current {
+  color:  rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+  cursor: default;
+}
+.caption {
+	font-size: 49px;
+	font-weight: bold;
+	font-family: 'opensans';
+	width: 227px;
+	letter-spacing: 2.45px;
+	text-transform: uppercase;
+	line-height: 35px;
+	margin-top: 27px;
+	margin-bottom: 47px;
+}
+
+.photo_people {
+	width: 160px;
+	height: 160px;
+	border-radius: 180px;
+}
+.img_people {
+	display: inline-block;
+}
+.desc_block {
+	display: inline-block;
+	width: 700px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.desc_data {
+	color: #8e8d8d;
+	margin-bottom: 3.5px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.desc_name {
+	color: #221f1f;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.desc_text {
+	font-weight: 300;
+	font-size: 18px;
+	color: #3f3d3d;
+	line-height: 30px;
+}
+hr {
+	color: #ffffff;
+	margin: 23px 0px 23px 0px;
+	width: 880px;
+	opacity: 0.2;
+}
+hr:last-child {
+
+}
+.paginator {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 29px;
+}
+
+.navigation_menu {
+	display: inline-block;
+	color: #989898;
+}
+.navigation_page {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #221f1f;
+	padding-top: 2px;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+.navigation_page--active {
+	background-color: #131415;
+	color: #f89513;
+	text-align: center;
+}
+.navigation_page:hover {
+	background-color: #131415;
+	color: #f89513;
+}
+.navigation_cursor {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.navigation_cursor--active {
+	color: #bdbcbc;
+}

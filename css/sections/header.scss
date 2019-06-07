@@ -1,0 +1,25 @@
+.triangle {
+  border-top: 15px solid black;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 0px solid transparent;
+  width: 0px;
+  height: 0px;
+  top: 100%;
+  left:50%;
+}
+&:before {
+  content: '';
+  display: block;
+  border-top: 15px solid black;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 0px solid transparent;
+  width: 0px;
+  height: 0px;
+  left: -30px;
+  top: -30px;
+
+  ;
+
+}

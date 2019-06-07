@@ -1,0 +1,129 @@
+.header {
+  height: 77px;
+  background: #131415;
+  min-width: 1100px;
+}
+.header_left {
+  display: inline-block;
+  float: left;
+  width: 33%;
+}
+.logo {
+  font-size: 18px;
+  font-family: 'gorafree';
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f89513;
+  display: block;
+  letter-spacing: 2px;
+}
+.header_central {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+.navigation_item {
+  display: inline-block;
+  padding-top: 36px;
+  width: 110px;
+}
+
+.navigation_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 10px;
+  float: right;
+  color: #f5f5f5;
+}
+
+.header_right {
+  display: inline-block;
+  float: right;
+  width: 33%;
+  text-align: right;
+}
+.phones {
+  padding-top: 16px;
+  height: 40px;
+}
+.phone {
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f5f5f5;
+  padding-top: 20px;
+}
+.sidebar_img {
+  float: left;
+  padding-right:15px;
+  }
+.work_grafik {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f89513;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.1em;
+  display: absolute;
+  border-bottom: 1px solid #f89513;
+}
+/* Dropdown       */
+.dropdown {
+  position: relative;
+  width: 160px;
+  float: right;
+    transition: 1s;
+}
+.dropdown_grafik {
+  border:1px solid #fff; 
+  width: 160px;
+  position: absolute;
+  margin-top: 15px;
+  opacity:10;
+  visibility: hidden;
+  border-radius:3px;
+  height: 70px;
+  z-index: 10;
+  text-align: center;
+  box-shadow:0px 0px 4px 5px #CBD2E0;
+}
+.dropdown_grafik:before {
+  content: "";
+  display: block;
+  right: 0;
+  left: 0;
+  height: 20px;
+  top: -19px;
+  position: absolute;
+}
+.work_grafik:hover {
+  color: #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+.dropdown:hover .dropdown_grafik{
+  visibility: visible;
+  transition: 5s;
+}
+.triangle{ 
+  position:absolute; 
+  border-right:15px solid transparent; 
+  border-bottom:15px solid #fff; 
+  border-left:15px solid transparent; 
+  left:129px;
+  width:0px; 
+  height:0px; 
+  top:-15px; 
+}
+.time_work {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 15px;
+  color: #f89513; 
+}
+.time_dinner {
+  font-weight: lighter;
+  font-size: 14px;
+}
